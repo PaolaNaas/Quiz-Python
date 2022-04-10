@@ -1,0 +1,10 @@
+
+print("Vamos a um desafio, {} !".format(nome))
+
+quantidade_de_acertos = 0
+
+print("Quem é o atual presidente do Brasil? ")
+print("a) Lula")
+print("b) Michel Temer")
+print("c) Costa e Silva")
+print("d) Jair Bolsonaro")
