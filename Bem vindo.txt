@@ -1,0 +1,6 @@
+from time import sleep
+nome = str(input("Informe seu nome: "))
+print('\n\n')
+sleep(2)
+print("Bem-vindo, {}. Vamos começar? \n\n".format(nome))
+sleep(2)
