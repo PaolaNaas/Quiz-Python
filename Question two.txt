@@ -1,0 +1,14 @@
+print("A construção de Brasilia foi realizada durante qual governo?")
+print("a) Vargas")
+print("b) Fernando Henrique Cardoso")
+print("c) Jucelino kubitschek ")
+print("d) Lula")
+
+print('\n')
+
+resposta = input("Resposta: ")
+if resposta == "c" :
+  print("Acertou")
+  quantidade_de_acertos = quantidade_de_acertos + 1
+else:
+  print("Você errou")
