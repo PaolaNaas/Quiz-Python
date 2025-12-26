@@ -1,19 +1,17 @@
-
 quantidade_de_acertos = 0
 
-print("Quem é o atual presidente do Brasil? ")
-print("a) Lula")
-print("b) Michel Temer")
-print("c) Costa e Silva")
-print("d) Jair Bolsonaro")
+while quantidade_de_acertos == 0:
+    print("Quem é o atual presidente do Brasil?")
+    print("a) Lula")
+    print("b) Michel Temer")
+    print("c) Costa e Silva")
+    print("d) Jair Bolsonaro")
+    print()
 
-print('\n')
+    resposta = input("Resposta: ").strip().lower()
 
-resposta = input("Resposta: ")
-if resposta == "d":
-   print("Acertou")
-   quantidade_de_acertos = 1
-else:
-  print("Você errou")
-  
-print('\n')
+    if resposta == "d":
+        print("Acertou!")
+        quantidade_de_acertos = 1
+    else:
+        print("Você errou. Tente novamente.\n")
