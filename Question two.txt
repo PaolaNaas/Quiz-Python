@@ -1,14 +1,19 @@
-print("A construção de Brasilia foi realizada durante qual governo?")
-print("a) Vargas")
-print("b) Fernando Henrique Cardoso")
-print("c) Jucelino kubitschek ")
-print("d) Lula")
+quantidade_de_acertos = 0
+acertou = False
 
-print('\n')
+while not acertou:
+    print("A construção de Brasília foi realizada durante qual governo?")
+    print("a) Vargas")
+    print("b) Fernando Henrique Cardoso")
+    print("c) Juscelino Kubitschek")
+    print("d) Lula")
+    print()
 
-resposta = input("Resposta: ")
-if resposta == "c" :
-  print("Acertou")
-  quantidade_de_acertos = quantidade_de_acertos + 1
-else:
-  print("Você errou")
+    resposta = input("Resposta: ").strip().lower()
+
+    if resposta == "c":
+        print("Acertou!\n")
+        quantidade_de_acertos = quantidade_de_acertos + 1
+        acertou = True
+    else:
+        print("Você errou. Tente novamente.\n")
